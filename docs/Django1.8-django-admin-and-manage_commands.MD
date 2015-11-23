@@ -16,6 +16,7 @@ django-admin命令行的路径为：`django/bin/django-admin.py`
 
 ####创建一个应用（App）
 在project中与manage.py相同的目录下使用`python manage.py startapp [appname]`命令生成app。
+<br>
 以`python manage.py startapp polls`为例，这将创建一个目录polls，目录结构如下：
 <pre><code>polls/
     __init__.py
