@@ -85,7 +85,7 @@ if __name__ == "__main__":
 `handle()`方法执行的结果就是最后的返回。
 
 ###Command命令
-在django/core/management/commands可以查看所以的系统命令。
+在django/core/management/commands可以查看所有的系统命令。
 
 startproject.py和startapp.py都是调用`django.core.management.templates.TemplateCommand`类的`handle()`方法进行处理。
 <br>
